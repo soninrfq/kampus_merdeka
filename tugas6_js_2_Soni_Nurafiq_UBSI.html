@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tugas 6 JavaScript</title> 
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <form id="kalkulator">
+        <center>
+        <table cellpadding="10px">
+            <thead>
+                <tr>
+                    <th align="center" colspan="2">Kalkulatorku</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td width="30%">Angka 1</td>
+                    <td><input type="text" name="a1" value=""></td>
+                </tr>
+                <tr>
+                    <td>Angka 2</td>
+                    <td><input type="text" name="a2" value=""></td>
+                </tr>
+                <tr>
+                    <td>Hasil</td>
+                    <td><input type="text" name="hasil" value="0" disabled></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="button" name="tambah" value="+" onclick="hitung(1)">
+                        <input type="button" name="kurang" value="-" onclick="hitung(2)">
+                        <input type="button" name="kali" value="x" onclick="hitung(3)">
+                        <input type="button" name="bagi" value="/" onclick="hitung(4)">
+                        <input type="button" name="pangkat" value="^" onclick="hitung(5)">
+                        <input type="button" name="batal" value="Batal" onclick="kosongAll()">
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+        </center>
+    </form>
+    <script src="tugas6.js"></script>
+</body>
+</html>
