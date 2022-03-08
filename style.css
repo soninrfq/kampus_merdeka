@@ -1,0 +1,27 @@
+form {
+    font-size: 16pt;
+    font-family: Cambria, Calibri, Arial, Helvetica, sans-serif;
+    background: #fbfbfb;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.70);
+    margin: 40px auto;
+    height: 60%;
+    width: 50%;
+    padding: 20px;
+}
+
+tbody {
+    background-color: rgb(218, 216, 216);
+    padding: 10px;
+    margin: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    float:'left';
+    font-size: 12pt;
+}
+
+thead {
+    background-color: rgba(127, 161, 2, 0.7);
+    padding: 70px;
+    margin: 70px;
+}
