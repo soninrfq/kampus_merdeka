@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tugas 8-1 JavaScript</title>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script>
+            $("document").ready(function () {
+                $("div.gajah").click(function () {
+                    $(this).css({
+                        background: "url('images/gajah.png')"
+                    });
+                    $("#gjh")[0].play();
+                });
+
+                $("div.kambing").click(function () {
+                    $(this).css({
+                        background: "url('images/kambing.jpg')"
+                    });
+                    $("#kbg")[0].play();
+                });
+
+                $("div.kucing").click(function () {
+                    $(this).css({
+                        background: "url('images/kucing.jpg')"
+                    });
+                    $("#kcg")[0].play();
+                });
+
+                $("div.kuda").click(function () {
+                    $(this).css({
+                        background: "url('images/kuda.jpeg')"
+                    });
+                    $("#kda")[0].play();
+                });
+            });
+        </script>
+        <style>
+            body {
+                background-color: darkgrey;
+            }
+
+            div {
+                background: khaki;
+                width: 200px;
+                height: 100px;
+                margin: 10px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h2>MENGENAL HEWAN</h2>
+            <p>Klik kotak di bawah ini</p>
+            <table>
+                <tr>
+                    <td><div class="gajah"></div></td>
+                    <td><div class="kambing"></div></td>
+                    <td><div class="kucing"></div></td>
+                    <td><div class="kuda"></div></td>
+                </tr>
+                <tr align="center">
+                    <td>GAJAH</td>
+                    <td>KAMBING</td>
+                    <td>KUCING</td>
+                    <td>KUDA</td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
+<audio id="gjh">
+    <source src="audio/gajah.mp3" type="audio/mpeg">
+</audio>
+<audio id="kbg">
+    <source src="audio/kambing.mp3" type="audio/mpeg">
+</audio>
+<audio id="kcg">
+    <source src="audio/kucing.mp3" type="audio/mpeg">
+</audio>
+<audio id="kda">
+    <source src="audio/kuda.mp3" type="audio/mpeg">
+</audio>
