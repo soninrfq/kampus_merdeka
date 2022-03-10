@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tugas 1 RWD</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <style>
+            div {
+                text-align: justify;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/1.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/2.png" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/3.jpg" class="d-block w-100">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">NF Computer</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html#main" target="#main">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="jadwal.html#main" target="#main">Jadwal</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="kursus.html#main" target="#main">Kursus</a>
+                                    </li>
+                                </ul>
+                                <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <br/>
+                    <center>
+                        <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Quote" data-bs-content="Tidak ada kata terlambat untuk belajar">Quotes</a>
+                    </center>
+                </div>
+                <div class="col-md-8" name="main">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="images/ci.png" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pemrograman Web PHP dengan Frame Work CodeIgniter</h5>
+                                    <p class="card-text">81 Pelajaran</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="images/mysql.png" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sistem Manajemen Database MySQL</h5>
+                                    <p class="card-text">62 Pelajaran</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="images/python.png" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pemrograman Python</h5>
+                                    <p class="card-text">80 Pelajaran</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="images/laravel.png" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pemrograman PHP dengan Framework Laravel</h5>
+                                    <p class="card-text">72 Pelajaran</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="images/postgre.png" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sistem Manajemen Database PostgreSQL</h5>
+                                    <p class="card-text">41 Pelajaran</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="images/java.jpg" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pemrograman Java</h5>
+                                    <p class="card-text">66 Pelajaran</p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="list-group">
+                        <a href="https://w3schools.com/" target="_blank" class="list-group-item list-group-item-action">W3Schools</a>
+                        <a href="https://www.javascript.com/" target="_blank" class="list-group-item list-group-item-action">JavaScript</a>
+                        <a href="https://php.net/" target="_blank" class="list-group-item list-group-item-action">PHP</a>
+                        <a class="list-group-item list-group-item-action disabled">Laravel</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="alert alert-secondary" role="alert">
+                        <h6 class="text-center">Copyright &copy; by Soni Nurafiq</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        });
+
+        var popover = new bootstrap.Popover(
+            document.querySelector('.popover-dismiss'), {
+            trigger: 'focus'
+        });
+    </script>
+</html>
